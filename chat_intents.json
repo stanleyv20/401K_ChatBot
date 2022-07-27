@@ -1,0 +1,222 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey", "How are you", "What's up?", "Hello", "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Greetings Friend"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I am done", "That's all for today"],
+      "responses": [
+        "Good bye *NAME*, and best of luck with your investments"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Got any jokes", "I want a laugh"],
+      "responses": [
+        "The safest way to double your money is to fold it over and put it in your pocket.",
+        "Why did the financial system collapse in ancient Eqypt?.... pyramid schemes",
+        "My financial advisor asked me what I take home at the end of each month....\"crippling depression\"I told him"
+      ]
+    },
+    {
+      "tag": "functionalities",
+      "patterns": ["What can you help with", "what do you do", "what capabilities do you have", "what are you?",
+        "who are you?", "how can you help"],
+      "responses": [
+        "I am a chatbot that can help answer questions and provide information regarding 401K retirement plans!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "401k definition",
+      "patterns": [
+        "What is a 401k",
+        "Tell me about 401k accounts"
+      ],
+      "responses": [
+        "A 401(k) plan is a retirement savings plan offered by many American employers that has tax advantages to the saver.\n There are two basic types of 401(k)s—traditional and Roth"
+      ]
+    },
+    {
+      "tag": "401k types",
+      "patterns": [
+        "What types of accounts are there",
+        "What type of plans are there",
+        "What are the two types of 401K plans",
+        "Explain the types of 401k accounts"
+      ],
+      "responses": [
+        "There are two basic types of 401(k)s—traditional and Roth—which differ primarily in how they're taxed."
+      ]
+    },
+    {
+      "tag": "contribution limits",
+      "patterns": [
+        "What Is the Maximum Contribution to a 401(k)?",
+        "How much can I contribute?",
+        "Are there limits on my contributions?",
+        "Are there rules regarding how much I can add to the account",
+        "Any contribution restrictions?"
+      ],
+      "responses": [
+        "For most people, the maximum contribution to a 401(k) plan is $20,500 in the year 2022.If you are more than 50 years old, you can make an additional catch-up contribution of $6,500 for a total of $27,000. There are also limitations to the employer's matching contribution. Contribution limits are adjusted annually for inflation and announced each year by the IRS."
+      ]
+    },
+    {
+      "tag": "general benefits",
+      "patterns": [
+        "Why would someone use a 401k?",
+        "What are the benefits of a 401k?",
+        "Are there any incentives?",
+        "What benefits are there?",
+        "What are the reasons to have a 401k"
+      ],
+      "responses": [
+        "A 401(k) plan lets you reduce your tax burden while saving for retirement. It's also hassle-free since contributions are automatically subtracted from your paycheck. In addition, many employers will match part of their employee's 401(k) contributions, effectively giving them a free boost to their retirement savings."
+      ]
+    },
+    {
+      "tag": "roth benefits",
+      "patterns": [
+        "Why would someone use a roth 401k?",
+        "What are the benefits of a roth 401k?",
+        "Are there any incentives to use a roth?",
+        "What benefits are there for roth accounts?",
+        "What are the reasons to have a roth account",
+        "Why would someone chose roth over traditional",
+        "Why would one prefer a roth",
+        "Is roth a better option"
+      ],
+      "responses": [
+        "Employees who expect to be in a higher bracket after retiring might opt for the Roth so that they can avoid taxes on their savings later. Also important—especially if the Roth has years to grow—is that there is no tax on withdrawals, which means that all the money the contributions earn over decades of being in the account is tax-free."
+      ]
+    },
+    {
+      "tag": "traditional benefits",
+      "patterns": [
+        "Why would someone use a traditional 401k?",
+        "What are the benefits of a traditional 401k?",
+        "incentives to use traditional type?",
+        "Benefits of traditional contributions?",
+        "What are the reasons to have a pretax account",
+        "Why would someone chose traditional over roth",
+        "Why would one prefer to select traditional contributions",
+        "Is traditional a better option"
+      ],
+      "responses": [
+        "As a general rule, employees who expect to be in a lower marginal tax bracket after they retire might want to opt for a traditional 401(k) and take advantage of the immediate tax break."
+      ]
+    },
+    {
+      "tag": "investment options",
+      "patterns": [
+        "What do the accounts invest in?",
+        "What investments are used for 401k accounts",
+        "What investments are involved?"
+      ],
+      "responses": [
+        "Employees are responsible for choosing the specific investments within their 401(k) accounts from a selection their employer offers. Those offerings typically include an assortment of stock and bond mutual funds and target-date funds designed to reduce the risk of investment losses as the employee approaches retirement."
+      ]
+    },
+    {
+      "tag": "setup",
+      "patterns": [
+        "How do you get setup?",
+        "How can I start a 401k?",
+        "What steps are involved in getting started?",
+        "How do you start a 401k?"
+      ],
+      "responses": [
+        "The simplest way to start a 401(k) plan is through your employer. Many companies offer 401(k) plans, and some will match part of an employee's contributions. In this case, your 401(k) paperwork and payments will be handled by the company during onboarding."
+      ]
+    },
+    {
+      "tag": "taxes",
+      "patterns": [
+        "How will I be taxed?",
+        "401K taxes",
+        "Plan taxes",
+        "How do taxes work for 401k plans"
+      ],
+      "responses": [
+        "Distributions from a regular, or traditional, 401(k) are fairly simple in their tax treatment. Your contributions to the plan were paid with pre-tax dollars, meaning they were taken \"off the top\" of your gross salary, reducing your taxable earned income and, thus, the income taxes you paid at that time. Because of that deferral, taxes become due on the 401(k) funds once the distributions begin.With a Roth 401(k), the tax situation is different. As with a Roth IRA, the money you contribute to a Roth 401(k) is made with after-tax dollars, meaning you didn't get a tax deduction for the contribution at the time. So, since you’ve already been taxed on the contributions, it's unlikely you’ll also be taxed on your distributions, provided your distributions are qualified."
+      ]
+    },
+    {
+      "tag": "retirement definition",
+      "patterns": [
+        "What is retirement?",
+        "What does it mean to retire"
+      ],
+      "responses": [
+        "Retirement refers to the time of life when one chooses to permanently leave the workforce behind."
+      ]
+    },
+    {
+      "tag": "roth 401k definition",
+      "patterns": [
+        "What is a roth 401k?",
+        "What is a roth account",
+        "What is the roth type"
+      ],
+      "responses": [
+        "An employer-sponsored Roth 401(k) plan is similar to a traditional plan with one major exception. Contributions by employees are not tax-deferred but are made with after-tax dollars. Income earned on the account, from interest, dividends, or capital gains, is tax-free."
+      ]
+    },
+    {
+      "tag": "traditional 401k definition",
+      "patterns": [
+        "What is a traditional 401k?",
+        "What is a traditional account",
+        "What is the traditional type",
+        "Tell me about the traditional type",
+        "Tell me about the normal account type"
+      ],
+      "responses": [
+        "A traditional 401(k) is an employer-sponsored plan that gives employees a choice of investment options. Employee contributions to a 401(k) plan and any earnings from the investments are tax-deferred. You pay the taxes on contributions and earnings when the savings are withdrawn."
+      ]
+    },
+    {
+      "tag": "Is it worth it?",
+      "patterns": [
+        "Is it worth saving for retirement?",
+        "Are you sure its worth it?"
+      ],
+      "responses": [
+        "Albert Einstein once described compound interest as the “eighth wonder of the world,” saying, “he who understands it, earns it; he who doesn't, pays for it.\"",
+        "Check out this compound interest calculator and decide for yourself :) - https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+      ]
+    },
+    {
+      "tag": "employment change",
+      "patterns": ["What if I leave my job", "What if I change jobs"],
+      "responses": [
+        "When an employee leaves a company where they have a 401(k) plan, they generally have four options:\n1. Withdraw the Money\n2. Roll Your 401(k) Into an IRA\n3. Leave Your 401(k) With the Old Employer\n4. Move Your 401(k) to a New Employer"
+      ]
+    },
+    {
+      "tag": "Bitcoin",
+      "patterns": ["Do you have any thoughts on Bitcoin?", "How do you feel about bitcoin", "What about btc"],
+      "responses": [
+        "HODL!",
+        "WAGMI!",
+        "I stack sats"
+      ]
+    }
+  ]
+}
